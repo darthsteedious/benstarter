@@ -1,0 +1,46 @@
+{
+  "name": "ben-starter",
+  "version": "0.0.1",
+  "description": "ben starting point",
+  "scripts": {
+    "start": "node . & webpack --watch --config webpack.config.js"
+  },
+  "author": "randrr dev team",
+  "dependencies": {
+    "classnames": "^2.2.5",
+    "core-decorators": "^0.12.3",
+    "debug": "^2.2.0",
+    "moment": "^2.15.1",
+    "react": "^15.3.1",
+    "react-dom": "^15.3.1",
+    "react-redux": "^4.4.5",
+    "react-router": "^2.8.1",
+    "redux": "^3.6.0",
+    "redux-actions": "^1.1.0",
+    "redux-thunk": "^2.1.0",
+    "whatwg-fetch": "^1.0.0"
+  },
+  "devDependencies": {
+    "autoprefixer": "^6.5.0",
+    "babel": "^6.5.2",
+    "babel-core": "^6.14.0",
+    "babel-loader": "^6.2.5",
+    "babel-plugin-transform-decorators-legacy": "^1.3.4",
+    "babel-preset-es2015": "^6.14.0",
+    "babel-preset-es2017": "^6.14.0",
+    "babel-preset-react": "^6.11.1",
+    "babel-preset-stage-1": "^6.13.0",
+    "css-loader": "^0.25.0",
+    "dotenv": "^2.0.0",
+    "express": "^4.14.0",
+    "html-webpack-plugin": "^2.22.0",
+    "node-sass": "^3.10.0",
+    "postcss-loader": "^0.13.0",
+    "raw-loader": "^0.5.1",
+    "sass-loader": "^4.0.2",
+    "style-loader": "^0.13.1",
+    "tape": "^4.6.0",
+    "webpack": "^1.13.2"
+  },
+  "license": "ISC"
+}
